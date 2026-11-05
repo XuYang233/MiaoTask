@@ -2,6 +2,16 @@
 
 按新到旧维护用户可见变化。GitHub Release 正文从对应的 `## 版本号` 小节提取，发布状态以 [Releases](https://github.com/h0ll0w-AkuZr0guY/MiaoTask/releases) 为准。
 
+## MiaoTask-v0.2.3
+
+修复单屏和多屏设备的应用屏幕映射兼容性问题
+
+* 【修复】兼容更多 Android/模拟器 `dumpsys display` 输出，避免单屏设备误报无法映射当前应用屏幕。
+
+下载 Windows x64 ZIP，完整解压后运行 `MiaoTask.exe`，保留 `_internal/`。升级前退出旧助手。安全认证需本人处理，诊断截图分享前请脱敏。
+
+感谢 [MonsterNone/tmall-miao](https://github.com/MonsterNone/tmall-miao) 提供早期实现思路参考。[使用说明](https://github.com/h0ll0w-AkuZr0guY/MiaoTask/blob/main/docs/USAGE.md) · [项目介绍](https://github.com/h0ll0w-AkuZr0guY/MiaoTask#readme)
+
 ## MiaoTask-v0.2.2
 
 活动补扫、分身选择与可选 DirectML 扩展适配。
